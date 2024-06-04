@@ -1,0 +1,38 @@
+.navbl{
+	background-color: #6993FF;
+	height: 40px;
+	
+}
+.adlink{
+	color: white;
+}
+.activead{
+	color: black;
+	font-weight:500;
+	
+}
+
+
+.navv{
+	width: 90%;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.itm{
+	flex: none;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  height: 100%;
+}
+
+#navbarNav{
+	justify-content: center;
+}

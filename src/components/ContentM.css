@@ -1,0 +1,18 @@
+.cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pcont{
+	width: 33vw;
+}
+.imgcont{
+	width: 35vw;
+}
+h1{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: "Roboto Flex", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}

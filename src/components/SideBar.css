@@ -1,0 +1,36 @@
+.sb{
+	width: 25%;
+	background-color: #6993FF;
+	min-height: 100vh;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+
+}
+.liside{
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  margin-top: 30px;
+  cursor:pointer;
+}
+
+.ulside{
+	 margin-top: 30px;
+	 list-style-type:none; 
+	 padding-left: 0px;
+	 margin-left: 30px;
+	 margin-right: 30px;
+	 cursor: pointer;
+	 color: white;
+}
+.selected {
+  color: black;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}

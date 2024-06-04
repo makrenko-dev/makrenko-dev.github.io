@@ -1,0 +1,30 @@
+/* Contacts.css */
+.contacts-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.contacts-details, .contacts-questions {
+  margin-bottom: 20px;
+}
+
+.contacts-details p, .contacts-questions p {
+  margin: 5px 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.discipline-editor {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discipline-editor .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.edit-discipline-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+.table thead th {
+  background-color: #f8f9fa;
+}

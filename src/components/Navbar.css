@@ -1,0 +1,42 @@
+.navb{
+	background-color: #FFFFFF;
+	height: 12vh;
+
+}
+
+.navbar-brand{
+  margin-left: 25px;
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  height: 37px;
+
+}
+
+.nav-link{
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px; 
+  width: 100%;
+}
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center; /* Чтобы текст был выровнен по центру в каждом пункте меню */
+}
+
+.container-fluid{
+	padding: 0px;
+}
+
+.collapse{
+	display: flex;
+	justify-content: ;
+}

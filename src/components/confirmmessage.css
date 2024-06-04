@@ -1,0 +1,59 @@
+/* custom-confirm-alert.css */
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.react-confirm-alert {
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.react-confirm-alert-body {
+  background-color: #f8f8f8; /* Background color of the dialog */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.react-confirm-alert-title {
+  color: #ff6347; /* Custom title color */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.react-confirm-alert-message {
+  color: #555; /* Custom message color */
+  margin-bottom: 20px;
+}
+
+.react-confirm-alert-button-group {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 10px; /* Add some space between buttons */
+}
+
+.react-confirm-alert-button-group button {
+  background-color: #6993FF; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.react-confirm-alert-button-group button:hover {
+  background-color: #507AE8; /* Button hover color */
+}
+
+.react-confirm-alert-button-group button.cancel {
+  background-color: #6993FF; /* Cancel button background color */
+}
+
+.react-confirm-alert-button-group button.cancel:hover {
+  background-color: #507AE8; /* Cancel button hover color */
+}
